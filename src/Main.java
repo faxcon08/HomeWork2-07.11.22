@@ -18,13 +18,23 @@ public class Main {
              dog = dog +4;
              cat = cat +4;
              paper = paper +4;
-            System.out.println("New Values: dog="+dog+" cat="+cat+" paper="+paper);
+            System.out.println("dog="+dog+" cat="+cat+" paper="+paper);
 
         // Third task
         System.out.println(ANSI_RED + "Third task" + ANSI_RESET);
             dog = dog - 3.5;
             cat = cat - 1.6;
             paper = paper - 7639;
-            System.out.println("New Values: dog="+dog+" cat="+cat+" paper="+paper);
+            System.out.println("dog="+dog+" cat="+cat+" paper="+paper);
+
+            //Fourth task
+        System.out.println(ANSI_RED + "Fourth task" + ANSI_RESET);
+            var friend = 19;
+            System.out.println(friend);
+            friend += 2;
+            System.out.println(friend);
+            friend /=7;
+            System.out.println(friend);
+
     }
 }
