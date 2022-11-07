@@ -59,6 +59,16 @@ public class Main {
         differenceWeight = fighter2Weight-fighter1Weight;
         System.out.println("Разница в весе бойцов (-) " + differenceWeight + " кг.");
         differenceWeight= fighter2Weight % fighter1Weight;
-        System.out.println("Разница в весе бойвов (%) " + differenceWeight + " ))_кг.");
+        System.out.println("Разница в весе бойвов (%) " + differenceWeight + " кг.");
+
+        // Eighth task
+        System.out.println(ANSI_RED + "Eighth task" + ANSI_RESET);
+        var workTime = 640;
+        var singleTime = 8;
+        var staffAmount = workTime / singleTime;
+        System.out.println("Всего работников в компании "+staffAmount+ " человек");
+        var newStaffAmount = staffAmount + 94;
+        var newSingleTime = workTime / newStaffAmount;
+        System.out.println("Если в компании работает " + newStaffAmount + " человек, то всего "+ newSingleTime +" часа работы может быть поделено между сотрудниками");
     }
 }
