@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
           final String ANSI_RED = "\u001B[31m"; // Красный цвет в консоле
@@ -46,6 +44,16 @@ public class Main {
         System.out.println(frog);
         frog+=4;
         System.out.println(frog);
+
+            //Sixth task
+        System.out.println(ANSI_RED + "Fifth task" + ANSI_RESET);
+        var fighter1Weight = 78.2;
+        var fighter2Weight = 82.7;
+        var bothFighersWeight = fighter2Weight + fighter1Weight;
+        System.out.println("Вес обоих бойцов: "+bothFighersWeight+" кг.");
+        var differenceWeight = fighter1Weight - fighter2Weight;
+        System.out.println("Разница 2х бойцов: "+differenceWeight+" кг.");
+
 
     }
 }
