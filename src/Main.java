@@ -54,6 +54,11 @@ public class Main {
         var differenceWeight = fighter1Weight - fighter2Weight;
         System.out.println("Разница 2х бойцов: "+differenceWeight+" кг.");
 
-
+          // Seventh task
+        System.out.println(ANSI_RED + "Seventh task" + ANSI_RESET);
+        differenceWeight = fighter2Weight-fighter1Weight;
+        System.out.println("Разница в весе бойцов (-) " + differenceWeight + " кг.");
+        differenceWeight= fighter2Weight % fighter1Weight;
+        System.out.println("Разница в весе бойвов (%) " + differenceWeight + " ))_кг.");
     }
 }
