@@ -36,5 +36,16 @@ public class Main {
             friend /=7;
             System.out.println(friend);
 
+            //Fifth task
+        System.out.println(ANSI_RED + "Fifth task" + ANSI_RESET);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog *=10;
+        System.out.println(frog);
+        frog /=3.5;
+        System.out.println(frog);
+        frog+=4;
+        System.out.println(frog);
+
     }
 }
