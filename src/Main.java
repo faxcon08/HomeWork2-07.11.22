@@ -69,6 +69,6 @@ public class Main {
         System.out.println("Всего работников в компании "+staffAmount+ " человек");
         var newStaffAmount = staffAmount + 94;
         var totalWorkingTime =  newStaffAmount * singleTime;
-        System.out.println("Если в компании работает " + newStaffAmount + " человек, то всего "+ totalWorkingTime +" часа работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + newStaffAmount + " человек, то всего "+ totalWorkingTime +" часов работы может быть поделено между сотрудниками");
     }
 }
